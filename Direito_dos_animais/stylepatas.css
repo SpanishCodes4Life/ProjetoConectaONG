@@ -44,7 +44,7 @@ main{
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 50px;
-    background: url("backdog.jpg") no-repeat center center;
+    background: url("images_animais/backdog.jpg") no-repeat center center;
     background-size: cover;
     height: 35vh;
 }
