@@ -7,6 +7,8 @@
 
 body{
     background-color: rgb(226, 226, 226);
+    display: flex;
+    flex-flow: wrap column;
 }
 
 nav{
@@ -64,6 +66,7 @@ h1{
 }
 
 p{
+    font-family: 'Poppins',sans-serif;
     color: rgb(61, 61, 72);
     padding:10px;
 }
@@ -80,7 +83,7 @@ p{
     align-items: center;
     justify-content: center;
     gap: 15px;
-    flex-direction: column;
+    flex-direction: column ;
     padding: 2%;
     width: 50vh;
     background-color: #fff;
@@ -97,16 +100,15 @@ p{
     align-items: row;
     justify-content: center;
     gap: 5px;
-    flex-direction: column;
+    flex-flow: wrap column;
     padding: 10px;
-    width: 180vh;
     background-color: #fff;
     border-radius: 10px;
+
+    width:auto;
+    height: auto;
 }
 
-#branco{
-    color: white;
-}
 
 .fundocaramelo{
     background-color:#ecaf05;
@@ -131,5 +133,6 @@ p{
     justify-content: center;
     gap: 5px;
     flex-direction: column;
-    width: 500px;
+    width: 500p
 }
+

@@ -7,6 +7,8 @@
 
 body {
     background-color: rgb(226, 226, 226);
+    display: flex;
+    flex-flow: wrap column;
 }
 
 nav {

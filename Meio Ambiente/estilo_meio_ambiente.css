@@ -6,6 +6,9 @@
 }
 body{
     background-color: rgb(226, 226, 226);
+    display: flex;
+    flex-flow: wrap column;
+    transition: 0.3s;
 }
 
 nav{
@@ -98,7 +101,6 @@ p{
     gap: 5px;
     flex-direction: column;
     padding: 10px;
-    width: 180vh;
     background-color: #fff;
     border-radius: 10px;
 }
