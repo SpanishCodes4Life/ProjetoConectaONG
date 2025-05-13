@@ -4,9 +4,11 @@
     padding: 2px;
     margin: 0;
 }
+
 body{
     background-color: rgb(226, 226, 226);
 }
+
 nav{
     display: flex;
     align-items: center;
@@ -15,14 +17,17 @@ nav{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
 }
+
 #imglogo{
     width: 120px;
     height: 100px;
     mix-blend-mode: multiply;
 }
+
 a:hover{
     opacity: 0.7;
 }
+
 a{
     background-color: rgb(112, 118, 202);
     padding-top: 20px;
@@ -36,6 +41,7 @@ a{
     transition: 0.3s;
     border: none;
 }
+
 main{
     color: rgb(85, 95, 240);
     display: flex;
@@ -48,22 +54,27 @@ main{
     background-size: cover;
     height: 35vh;
 }
+
 h1,h2,h3{
     font-family: 'Poppins',sans-serif;
 }
+
 h1{
     font-size: 23px;
 }
+
 p{
     color: rgb(61, 61, 72);
     padding:10px;
 }
+
 .caixa{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
+
 .caixa2{
     display: flex;
     align-items: center;
@@ -75,10 +86,12 @@ p{
     background-color: #fff;
     border-radius: 10px;
 }
+
 .pata{
     width: 30px;
     height: 200px;
 }
+
 .caixa3{
     display: flex;
     align-items: row;
@@ -90,9 +103,11 @@ p{
     background-color: #fff;
     border-radius: 10px;
 }
+
 #branco{
     color: white;
 }
+
 .fundocaramelo{
     background-color:#ecaf05;
     display: flex;
@@ -102,12 +117,14 @@ p{
     height: 250px;
     border-radius: 10px;
 }
+
 .imgpata{
     display: flex;
     justify-content: center;
     align-items: center;
     object-fit: cover;
 }
+
 .caixa4{
     display: flex;
     align-items: row;
