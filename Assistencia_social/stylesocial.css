@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     padding: 2px;
     margin: 0;
 }
-body{
+
+body {
     background-color: rgb(226, 226, 226);
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,15 +17,18 @@ nav{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
 }
-#imglogo{
+
+#imglogo {
     width: 120px;
     height: 100px;
     mix-blend-mode: multiply;
 }
-a:hover{
+
+a:hover {
     opacity: 0.7;
 }
-a{
+
+a {
     background-color: rgb(112, 118, 202);
     padding-top: 20px;
     padding-bottom: 20px;
@@ -36,6 +41,7 @@ a{
     transition: 0.3s;
     border: none;
 }
+
 main{
     color: rgb(85, 95, 240);
     display: flex;
@@ -44,27 +50,32 @@ main{
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 50px;
-    background: url("backdog.jpg") no-repeat center center;
+    background: url("image_social/backsocial.png") no-repeat center center;
     background-size: cover;
     height: 35vh;
 }
-h1,h2,h3{
+
+h1,h2,h3 {
     font-family: 'Poppins',sans-serif;
 }
-h1{
+
+h1 {
     font-size: 45px;
 }
-p{
+
+p {
     color: rgb(61, 61, 72);
     padding:10px;
 }
-.caixa{
+
+.caixa {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
-.caixa2{
+
+.caixa2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,11 +87,13 @@ p{
     border-radius: 10px;
     letter-spacing: 1px;
 }
-.pata{
+
+.pata {
     width: 30px;
     height: 200px;
 }
-.caixa3{
+
+.caixa3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,10 +105,12 @@ p{
     border-radius: 10px;
     letter-spacing: 1px;
 }
-#branco{
+
+#branco {
     color: white;
 }
-.fundocaramelo{
+
+.fundocaramelo {
     background-color:#fafdff;
     display: flex;
     align-items: center;
@@ -104,13 +119,15 @@ p{
     height: 250px;
     border-radius: 10px;
 }
-.imgpata{
+
+.imgpata {
     display: flex;
     justify-content: center;
     align-items: center;
     object-fit: cover;
 }
-.caixa4{
+
+.caixa4 {
     display: flex;
     align-items: row;
     justify-content: center;
@@ -118,15 +135,4 @@ p{
     flex-direction: column;
     width: 500px;
 }
-.backass{
-    color: rgb(85, 95, 240);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background: url("backsocial.png") no-repeat center center;
-    background-size: cover;
-    height: 35vh;
-}
+
